@@ -1,0 +1,47 @@
+/* App.css */
+
+/* Reset and basic styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #2f3640;
+  color: #f5f6fa;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #e84118;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #f5f6fa;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00a8ff;
+}
+
+.nav-links .active {
+  border-bottom: 2px solid #00a8ff;
+}
+
+/* Main content area */
+.main-content {
+  padding: 50px;
+  text-align: center;
+}
